@@ -16,6 +16,12 @@
             "https://developer.chrome.com/docs/extensions/*",
             "https://developer.chrome.com/docs/webstore/*"
           ]
+        },
+        {
+          "js": ["scripts/content-nonchromedoc.js"],
+          "matches": [
+            "https://en.wikipedia.org/wiki/*"
+          ]
         }
       ]
   }
